@@ -1,0 +1,219 @@
+/* ===== RESET GENERAL ===== */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+width:100%;
+background:#ffffff;
+color:#333;
+}
+
+/* ===== CONTENEDORES ===== */
+.container{
+width:90%;
+margin:auto;
+}
+
+.row{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+}
+
+/* ===== SISTEMA DE COLUMNAS ===== */
+.one-column{width:100%;}
+.half-column{width:50%;}
+.onethird-column{width:33.33%;}
+.quarter-column{width:25%;}
+
+/* ===== HEADER ===== */
+.header-top{
+background:#111;
+color:white;
+text-align:center;
+padding:10px;
+font-size:14px;
+}
+
+.header{
+border-bottom:1px solid #ddd;
+padding:15px 0;
+}
+
+.header-logo img{
+height:70px !important;
+width:auto !important;
+}
+
+.header-menu ul{
+list-style:none;
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.header-menu a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.header-nav-option{
+text-align:right;
+}
+
+.header-nav-option a{
+margin-left:15px;
+font-size:18px;
+color:black;
+}
+
+/* ===== BANNER PRINCIPAL ===== */
+.bgimage{
+background-image:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+url("../img/LOCIONES-MASCULINAS-INVIERNO-1536x1150.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+height:450px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+.background{
+background:rgba(0,0,0,0.6);
+padding:25px 40px;
+border-radius:8px;
+color:white;
+}
+
+.primary-btn{
+background:black;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+
+/* ===== SECCION ICONOS ===== */
+.icon-bg{
+background:#f5f5f5;
+padding:40px 0;
+text-align:center;
+}
+
+.icon{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.icon-caption{
+display:block;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+/* ===== CATEGORIAS ===== */
+.categories{
+padding:50px 0;
+text-align:center;
+}
+
+.categories img,
+.quarter-column img,
+.onethird-column img{
+width:100%;
+height:300px;      /* ← aquí decides el tamaño */
+object-fit:cover;  /* recorta sin deformar */
+display:block;
+}
+
+/* ===== PRODUCTOS ===== */
+.categories h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+/* ===== BANNER PROMOCIONAL ===== */
+.offer{
+font-size:24px;
+font-weight:bold;
+}
+
+.offer-center{
+text-align:center;
+position:relative;
+}
+
+.offer-price{
+position:absolute;
+top:10px;
+right:10px;
+background:black;
+color:white;
+padding:10px;
+}
+
+.offer-content{
+text-align:center;
+}
+
+.offer-counter-clock{
+display:flex;
+justify-content:center;
+gap:10px;
+margin:15px 0;
+}
+
+.cd-item{
+background:#f5f5f5;
+padding:10px;
+}
+
+/* ===== BOTON WHATSAPP ===== */
+.whatsapp-btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+text-decoration:none;
+}
+
+.whatsapp-btn img{
+width:30px;
+height:30px;
+}
+
+.whatsapp-btn i{
+color:white;
+font-size:28px;
+}
+
+.whatsapp-btn:hover{
+transform:scale(1.08);
+}
+
+/* ===== FOOTER ===== */
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+footer a{
+color:white;
+font-size:24px;
+}
